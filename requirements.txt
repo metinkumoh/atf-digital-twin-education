@@ -1,0 +1,8 @@
+# Streamlit Community Cloud requirements (Python 3.11 recommended)
+streamlit>=1.44,<2
+scikit-learn>=1.3,<2
+numpy>=1.24,<3
+matplotlib>=3.7,<4
+# Optional Gemini generation: loaded only if ENABLE_GEMINI=true
+# To keep the offline demo lightweight, uncomment when enabling Gemini:
+# google-genai>=1.0,<2
